@@ -1,0 +1,11 @@
+[package]
+name = "cli_app"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# Terminal UI rendering engine
+ratatui = { version = "0.26", features = ["crossterm"] }
+
+# Terminal control library for keyboard events and screen management
+crossterm = "0.27"
